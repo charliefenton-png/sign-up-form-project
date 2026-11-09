@@ -1,0 +1,17 @@
+#images {
+ display: flex;   
+}
+ 
+
+
+
+
+.logoBack {
+  background-color: black;
+  opacity: 0.5;
+  width: 550px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 400px;  
+}
