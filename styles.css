@@ -8,14 +8,41 @@ body,html {
   height: 100vh;
   margin: 0px;
   padding: 0px;
+  display: flex;
+  flex-direction: row;
 }
 
 
-#leftRight {
+#images {
    height: 100vh;
   margin: 0px;
   padding: 0px;
+  display: flex;
+  flex-direction: column;
 }
+
+
+.right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-top: 60px;
+}
+
+
+h1 {
+  margin-right: 180px;
+  font-size: larger;
+}
+
+h2 {
+  font-size: larger;
+}
+
+h3 {
+  margin-top: 60px;
+}
+
 
 .background {
  height: 100vh;
