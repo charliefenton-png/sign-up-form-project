@@ -43,6 +43,28 @@ h3 {
   margin-top: 60px;
 }
 
+.names {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  right: 79px;
+  top: 10px;
+}
+
+.first {
+  position: relative;
+  bottom: 19px;
+  left: 79px;
+}
+
+
+.last {
+  position: relative;
+  bottom: 19px;
+  left: 79px;
+}  
+
+
 
 .background {
  height: 100vh;
