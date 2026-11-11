@@ -40,6 +40,18 @@ body,html {
   background-image: linear-gradient(to bottom, rgb(13, 12, 12), rgb(207, 207, 205));
 }
 
+.createAccount {
+  position: relative;
+  left: 590px;
+  bottom: 130px;
+  width: 200px;
+  height: 38px;
+  background-color: #596D48;
+  color: white;
+  border-radius: 5px;
+}
+
+
 h1 {
   margin-right: 180px;
   font-size: larger;
