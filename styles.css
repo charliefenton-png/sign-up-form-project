@@ -27,8 +27,18 @@ body,html {
   flex-direction: column;
   margin-left: 40px;
   margin-top: 60px;
+  height: fit-content;
 }
 
+.line {
+  position: relative;
+  height: 8px;
+  width: 846px;
+  bottom: 150px;
+  left: 550px;
+  opacity: 0.2;
+  background-image: linear-gradient(to bottom, rgb(13, 12, 12), rgb(207, 207, 205));
+}
 
 h1 {
   margin-right: 180px;
@@ -65,9 +75,10 @@ h3 {
   gap: 8px;
 }
 
-:focus {
+input:focus {
   border-color: blue;
   box-shadow: darkgrey;
+  background-color: lightblue;
 }
 
 input {
@@ -78,8 +89,6 @@ input {
   border-color: red;
 }
   
-
-
 
 .background {
  height: 100vh;
