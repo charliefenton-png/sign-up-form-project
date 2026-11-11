@@ -43,26 +43,27 @@ h3 {
   margin-top: 60px;
 }
 
-.names {
+.columns {
   display: flex;
   flex-direction: row;
-  position: relative;
-  right: 79px;
-  top: 10px;
-}
-
-.first {
-  position: relative;
-  bottom: 19px;
-  left: 79px;
+  gap: 50px;
 }
 
 
-.last {
-  position: relative;
-  bottom: 19px;
-  left: 79px;
-}  
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  max-width: 270px;
+  gap: 8px;
+}
+
+
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  max-width: 270px;
+  gap: 8px;
+}
 
 
 
