@@ -52,6 +52,14 @@ body,html {
 }
 
 
+.bottomText {
+  position: relative;
+   left: 590px;
+  bottom: 120px;
+}
+
+
+
 h1 {
   margin-right: 180px;
   font-size: larger;
